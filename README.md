@@ -8,4 +8,4 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
 
 ## Project Solutions
 
-[<img src="./assets/images/single-page-cv.png">](https://github.com/Megusta23/Roadmap.sh-Frontend-Projects/tree/main/01-single-page-cv)
+[<img src="/assets/images/single-page-cv.png">](https://github.com/Megusta23/Roadmap.sh-Frontend-Projects/tree/main/01-single-page-cv)

@@ -5,3 +5,5 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
 ## Project List
 
 [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+
+## Project Solutions

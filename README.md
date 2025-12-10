@@ -8,31 +8,28 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
 
 ## Project Solutions
 
-<table width="100%">
-  <tr>
-    <td width="33.3333%" align="center">
-      <a href="https://github.com/Megusta23/Roadmap.sh-Frontend-Projects/tree/main/01-single-page-cv">
-        <img src="/assets/images/single-page-cv.png" width="90%">
-      </a>
-      <br>
-      <p>
-        <a href="https://github.com/Megusta23/Roadmap.sh-Frontend-Projects/tree/main/01-single-page-cv">
-          **Single Page CV**
-        </a>
-      </p>
-    </td>
+<div align="center">
 
-    <td width="33.3333%" align="center">
+  <div style="display: inline-block; width: 30%; margin: 10px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <a href="https://github.com/Megusta23/Roadmap.sh-Frontend-Projects/tree/main/01-single-page-cv">
+      <img src="/assets/images/single-page-cv.png" alt="Single Page CV Project Screenshot" style="width: 100%; height: auto;">
+    </a>
+    <p>
       <a href="https://github.com/Megusta23/Roadmap.sh-Frontend-Projects/tree/main/01-single-page-cv">
-        <img src="/assets/images/single-page-cv.png" width="90%">
+        **Single Page CV**
       </a>
-      <br>
-      <p>
-        <a href="https://github.com/Megusta23/Roadmap.sh-Frontend-Projects/tree/main/01-single-page-cv">
-          **Single Page CV**
-        </a>
-      </p>
-    </td>
+    </p>
+  </div>
 
-  </tr>
-</table>
+  <div style="display: inline-block; width: 30%; margin: 10px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <p>
+      **Second Project Title**
+    </p>
+  </div>
+
+  <div style="display: inline-block; width: 30%; margin: 10px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <p>
+      **Third Project Title**
+    </p>
+  </div>
+</div>

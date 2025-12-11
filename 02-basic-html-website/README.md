@@ -14,13 +14,13 @@ Phase 1: Setup & Global Structure
 
 - [ ] SEO Meta Tags: Add the following to the `<head>` of every page:
 
-  - [ ] `<meta charset="UTF-8">`
+  - [x] `<meta charset="UTF-8">`
 
-  - [ ] `<meta name="viewport" content="...">`
+  - [x] `<meta name="viewport" content="...">`
 
-  - [ ] `<meta name="description" content="...">`
+  - [x] `<meta name="description" content="...">`
 
-  - [ ] Proper `<title>` for each page.
+  - [x] Proper `<title>` for each page.
 
 - [x] Navigation Bar: Create a `<nav>` element containing an unordered list (`<ul>`) of links.
 
@@ -48,7 +48,7 @@ Phase 2: Page-Specific Content
 
   - [ ] Add `<input>` for Name.
 
-  - [ ] Add `<input> `for Email.
+  - [ ] Add `<input>` for Email.
 
   - [ ] Add `<textarea>` for Message.
 

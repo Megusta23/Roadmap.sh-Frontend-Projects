@@ -30,17 +30,17 @@ Phase 1: Setup & Global Structure
 
 Phase 2: Page-Specific Content
 
-- [ ] Homepage (index.html):
+- [x] Homepage (index.html):
 
-  - [ ] Add main welcome content using semantic tags (e.g., `<main>`, `<section>`).
+  - [x] Add main welcome content using semantic tags (e.g., `<main>`, `<section>`).
 
-- [ ] Projects Page (projects.html):
+- [x] Projects Page (projects.html):
 
-  - [ ] Create a structure to list projects (e.g., using `<article>` or list items).
+  - [x] Create a structure to list projects (e.g., using `<article>` or list items).
 
-- [ ] Articles Page (articles.html):
+- [x] Articles Page (articles.html):
 
-  - [ ] Create a structure to list articles/posts.
+  - [x] Create a structure to list articles/posts.
 
 - [ ] Contact Page (contact.html):
 

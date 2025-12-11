@@ -13,7 +13,7 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
     <img width="48%" src="/assets/images/single-page-cv.png" alt="Project 1" />
   </a>
   <a href='/02-basic-html-website/'>
-    <img width="48%" src="/assets/images/single-page-cv.png" alt="Project 2" />
+    <img width="48%" src="/assets/images/basic-html-website.png" alt="Project 2" />
   </a>
   
 </p>

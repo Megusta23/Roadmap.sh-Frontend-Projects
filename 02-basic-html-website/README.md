@@ -12,31 +12,31 @@ Phase 1: Setup & Global Structure
 
   - [x] contact.html
 
-- [ ] SEO Meta Tags: Add the following to the <head> of every page:
+- [ ] SEO Meta Tags: Add the following to the `<head>` of every page:
 
-  - [ ] <meta charset="UTF-8">
+  - [ ] `<meta charset="UTF-8">`
 
-  - [ ] <meta name="viewport" content="...">
+  - [ ] `<meta name="viewport" content="...">`
 
-  - [ ] <meta name="description" content="...">
+  - [ ] `<meta name="description" content="...">`
 
-  - [ ] Proper <title> for each page.
+  - [ ] Proper `<title>` for each page.
 
-- [x] Navigation Bar: Create a <nav> element containing an unordered list (<ul>) of links.
+- [x] Navigation Bar: Create a `<nav>` element containing an unordered list (`<ul>`) of links.
 
   - [x] Ensure the Nav bar links to all 4 pages.
 
-  - [x] Copy and paste this Nav bar into the <body> of every page.
+  - [x] Copy and paste this Nav bar into the `<body>` of every page.
 
 Phase 2: Page-Specific Content
 
 - [ ] Homepage (index.html):
 
-  - [ ] Add main welcome content using semantic tags (e.g., <main>, <section>).
+  - [ ] Add main welcome content using semantic tags (e.g., `<main>`, `<section>`).
 
 - [ ] Projects Page (projects.html):
 
-  - [ ] Create a structure to list projects (e.g., using <article> or list items).
+  - [ ] Create a structure to list projects (e.g., using `<article>` or list items).
 
 - [ ] Articles Page (articles.html):
 
@@ -44,12 +44,12 @@ Phase 2: Page-Specific Content
 
 - [ ] Contact Page (contact.html):
 
-  - [ ] Create a <form> element.
+  - [ ] Create a `<form>` element.
 
-  - [ ] Add <input> for Name.
+  - [ ] Add `<input>` for Name.
 
-  - [ ] Add <input> for Email.
+  - [ ] Add `<input> `for Email.
 
-  - [ ] Add <textarea> for Message.
+  - [ ] Add `<textarea>` for Message.
 
-  - [ ] Add a <button> or input for Submit.
+  - [ ] Add a `<button>` or input for Submit.

@@ -4,7 +4,7 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
 
 ## Project List
 
-[Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+[Single-Page CV](https://roadmap.sh/projects/single-page-cv), [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 
 ## Project Solutions
 
@@ -12,7 +12,7 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
   <a href='/01-single-page-cv/'>
     <img width="48%" src="/assets/images/single-page-cv.png" alt="Project 1" />
   </a>
-  <a href='/01-single-page-cv/'>
+  <a href='/02-basic-html-website/'>
     <img width="48%" src="/assets/images/single-page-cv.png" alt="Project 2" />
   </a>
   

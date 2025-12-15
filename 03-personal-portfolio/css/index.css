@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --font-base: 1rem;
+
+    font-size: clamp(1rem, 1vw + 1rem, 1.125rem);
+
+    font-family: 'Roboto', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 2.986rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h2 {
+    font-size: 2.488rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 2.074rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h4 {
+    font-size: 1.728rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 1.44rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+small {
+    font-size: 0.833rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Optional: Utility Class for Quick Base Reset */
+.text-base {
+    font-size: 1rem;
+}
+
+.navigation {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    border-bottom: 1px solid gray;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 40px;
+}
+
+.nav-links a:hover {
+    color: red;
+    transition: ease-in-out all .2s;
+}

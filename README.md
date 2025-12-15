@@ -19,7 +19,7 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
 </p>
 
 <p align="center">
-  <a href='/01-single-page-cv/'>
+  <a href='/03-personal-portfolio/'>
     <img width="48%" src="/assets/images/single-page-cv.png" alt="Project 3" />
   </a>
 </p>

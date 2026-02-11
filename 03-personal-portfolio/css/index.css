@@ -116,7 +116,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: red;
+    color: #fa003f;
     transition: ease-in-out all .2s;
 }
 
@@ -241,5 +241,42 @@ RESPONSIVE STYLES
 
     .summary {
         padding: 0 1rem;
+    }
+}
+
+/* 
+=================
+DARK MODE SUPPORT
+=================
+*/
+
+
+.theme-a {
+    background: white;
+    color: black;
+}
+
+.theme-a-navigation {
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+@media (prefers-color-scheme: dark) {
+    .theme-a.adaptive {
+        background: #37353E;
+        color: #D3DAD9;
+    }
+
+    .theme-a-navigation.adaptive {
+        background-color: #37353E;
+        border-bottom: 1px solid white;
+    }
+
+    .theme-a-navigation.adaptive a {
+        color: white;
+    }
+
+    .theme-a-navigation.adaptive a:hover {
+        color: #fa003f;
     }
 }

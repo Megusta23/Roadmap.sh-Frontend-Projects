@@ -5,7 +5,7 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
 ## Project List
 
 [Single-Page CV](https://roadmap.sh/projects/single-page-cv), [Basic HTML Website](https://roadmap.sh/projects/basic-html-website),
-[Personal Portfolio](https://roadmap.sh/projects/portfolio-website),
+[Personal Portfolio](https://roadmap.sh/projects/portfolio-website), [Changelog Component](https://roadmap.sh/projects/changelog-component),
 
 ## Project Solutions
 
@@ -21,5 +21,8 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
 <p align="center">
   <a href='/03-personal-portfolio/'>
     <img width="48%" src="/assets/images/personal-portfolio.png" alt="Project 3" />
+  </a>
+  <a href='/02-basic-html-website/'>
+    <img width="48%" src="/assets/images/basic-html-website.png" alt="Project 4" />
   </a>
 </p>

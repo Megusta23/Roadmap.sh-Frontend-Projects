@@ -10,6 +10,25 @@ h3 {
     color: #330066;
 }
 
+
+.projects-header {
+    padding: 1rem;
+}
+
+.list-of-projects ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.list-of-projects li {
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.list-of-projects li:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
 .footer {
     text-align: center;
     background-color: #f1f1f1;

@@ -65,6 +65,10 @@ p {
     color: rgba(0, 0, 0, 0.87);
 }
 
+.lighter {
+    color: rgba(0, 0, 0, 0.6);
+}
+
 small {
     font-size: 0.833rem;
 }
@@ -90,7 +94,6 @@ main {
 .log {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .log p {

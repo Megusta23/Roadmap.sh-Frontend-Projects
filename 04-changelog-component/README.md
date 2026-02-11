@@ -10,4 +10,4 @@ Just download the folder and run the HTML pages, or load the folder inside VS Co
 
 ## Roadmap.sh
 
-This project was completed as a learning challenge from Roadmap.sh. Project reference: https://roadmap.sh/projects/portfolio-website
+This project was completed as a learning challenge from Roadmap.sh. Project reference: https://roadmap.sh/projects/changelog-component

@@ -149,3 +149,97 @@ body {
 .footer p {
     margin: 0.25rem;
 }
+
+/* 
+=================
+RESPONSIVE STYLES
+=================
+*/
+
+/* Tablet styles (768px and below) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .navigation {
+        padding: 15px 20px;
+    }
+
+    .nav-links li {
+        margin-left: 20px;
+    }
+
+    .main-margin {
+        margin: 0 1rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+}
+
+/* Mobile styles (480px and below) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .navigation {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .navigation img {
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .nav-links li:last-child {
+        margin-bottom: 0;
+    }
+
+    .main-margin {
+        margin: 0 0.5rem;
+    }
+
+    .content {
+        padding: 0.5rem;
+    }
+
+    .main-header {
+        padding: 0 1rem;
+    }
+
+    .summary {
+        padding: 0 1rem;
+    }
+}

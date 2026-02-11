@@ -10,6 +10,28 @@ h3 {
     color: #330066;
 }
 
+hr {
+    margin: 1rem 0;
+}
+
+section h1 {
+    margin: 2rem;
+}
+
+.small {
+    background-color: #fa003f;
+    color: white;
+    margin: 0;
+    padding: 0 2rem;
+    border-top: 1px solid black;
+}
+
+.article {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 0 2rem 2rem 2rem;
+}
+
 .footer {
     text-align: center;
     background-color: #f1f1f1;

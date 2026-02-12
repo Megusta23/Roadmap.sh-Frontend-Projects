@@ -22,7 +22,16 @@ This is a repository where I'll be documenting my [Roadmap.sh Fronted](https://r
   <a href='/03-personal-portfolio/'>
     <img width="48%" src="/assets/images/personal-portfolio.png" alt="Project 3" />
   </a>
-  <a href='/02-basic-html-website/'>
+  <a href='/04-changelog-component/'>
+    <img width="48%" src="/assets/images/changelog-component.png" alt="Project 4" />
+  </a>
+</p>
+
+<p align="center">
+  <a href='/03-personal-portfolio/'>
+    <img width="48%" src="/assets/images/personal-portfolio.png" alt="Project 3" />
+  </a>
+  <a href='/04-changelog-component/'>
     <img width="48%" src="/assets/images/changelog-component.png" alt="Project 4" />
   </a>
 </p>

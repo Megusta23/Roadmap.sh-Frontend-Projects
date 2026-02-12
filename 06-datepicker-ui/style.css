@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    font-size: clamp(1rem, 1vw + 1rem, 1.125rem);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 2.986rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2.488rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 2.074rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h4 {
+    font-size: 1.728rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+h5 {
+    font-size: 1.44rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+
+
+.text-center {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.datetime-picker {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+.date-inputfield {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+    margin-bottom: 0.5rem;
+}
+
+.date-inputfield input {
+    flex: 1;
+    margin-right: 0.5rem;
+
+    border: 1px solid #1e1e1e;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.date-inputfield i {
+    padding: 0.5rem;
+    border: 1px solid #1e1e1e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+
+    cursor: pointer;
+}
+
+.date-inputfield i:hover {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.date-shifter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #1e1e1e;
+    border-bottom: none;
+}
+
+.date-shifter i {
+    cursor: pointer;
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.calendar-table thead {
+    border-left: #1e1e1e 1px solid;
+    border-right: #1e1e1e 1px solid;
+}
+
+.calendar-table tbody {
+    border: 1px solid #1e1e1e;
+}
+
+.calendar-table th {
+    padding: 25px 15px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.calendar-table td {
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
+
+.calendar-table td:nth-child(2n) {
+    background-color: #d2d2d2;
+}
+
+.calendar-table tr:nth-child(2n) {
+    background-color: #dddddd;
+}
+
+.calendar-table td:hover:not(:empty) {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.calendar-table td:empty {
+    cursor: default;
+}
+
+#selected {
+    background-color: #1e1e1e;
+    color: white;
+}

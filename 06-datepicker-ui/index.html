@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Essential HTML meta tags-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML">
+    <meta name="description" content="This is a basic HTML only portfolio website">
+    <meta name="author" content="Hasan Brkić">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=">
+    <title>Datepicker UI</title>
+    <meta name="robots" content="noindex,nofollow">
+
+    <!-- Open Graph protocol -->
+    <meta property="og:title" content="Datepicker UI" />
+    <meta property="og:description" content="This is a page display's a datepicker UI component">
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Logo_.cv.png/330px-Logo_.cv.png">
+    <meta property="og:type" content="article" />
+
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+    <h1 class="text-center">DATEPICKER</h1>
+
+    <div class="datetime-picker">
+        <div class="date-inputfield">
+            <input type="text" placeholder="dd / mm / yyyy">
+            <i class="fa-solid fa-calendar-days"></i>
+        </div>
+
+        <div class="date-shifter">
+            <i class="fa-sharp fa-solid fa-angle-left"></i>
+            <p>December 2022</p>
+            <i class="fa-sharp fa-solid fa-angle-right"></i>
+        </div>
+        <table class="calendar-table">
+            <thead>
+                <tr>
+                    <th scope="col" title="Sunday">S</th>
+                    <th scope="col" title="Monday">M</th>
+                    <th scope="col" title="Tuesday">T</th>
+                    <th scope="col" title="Wednesday">W</th>
+                    <th scope="col" title="Thursday">T</th>
+                    <th scope="col" title="Friday">F</th>
+                    <th scope="col" title="Saturday">S</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td id="selected">14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
